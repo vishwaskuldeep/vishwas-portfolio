@@ -1,6 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import vishwas_img from "../assets/WhatsApp Image 2025-05-18 at 14.22.14.jpeg"
+import About from "./About";
+import Resume from "./Resume";
+import Services from "./Services";
 
 const Hero = () => {
     return (
@@ -29,6 +32,9 @@ const Hero = () => {
                     </div>
                 </div>
             </section>
+            <About />
+            <Resume />
+            <Services />
         </>
     )
 }
